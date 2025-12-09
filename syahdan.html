@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Renang Tarantula</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #e6f7ff;
+        }
+
+        header {
+            background: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #023e8a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1505842465776-3d90f616310d?auto=format&fit=crop&w=1200&q=60') center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        /* Responsif */
+        @media (max-width: 600px) {
+            .hero {
+                font-size: 24px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sekolah Renang Tarantula</h1>
+    <p>Mengajarkan renang untuk semua usia</p>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#program">Program</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="hero">
+    Selamat Datang di Tarantula Swim School
+</div>
+
+<div class="container">
+
+    <div id="tentang" class="card">
+        <h2>Tentang Kami</h2>
+        <p>Sekolah Renang Tarantula menyediakan pelatihan renang profesional untuk anak-anak, remaja, hingga dewasa. 
+        Instruktur berpengalaman siap membimbing dari dasar hingga mahir.</p>
+    </div>
+
+    <div id="program" class="card">
+        <h2>Program Pelatihan</h2>
+        <ul>
+            <li>Latihan Renang Dasar</li>
+            <li>Renang Gaya Bebas & Dada</li>
+            <li>Renang Lanjut – Gaya Kupu & Punggung</li>
+            <li>Kelas Privat & Kelas Reguler</li>
+        </ul>
+    </div>
+
+    <div id="kontak" class="card">
+        <h2>Kontak Kami</h2>
+        <p><strong>Alamat:</strong> Jl. Laut Biru No. 12, Indonesia</p>
+        <p><strong>WA:</strong> 0812-3456-7890</p>
+        <p><strong>Email:</strong> tarantula.swimschool@gmail.com</p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Tarantula Swim School. Semua Hak Dilindungi.
+</footer>
+
+</body>
+</html>
